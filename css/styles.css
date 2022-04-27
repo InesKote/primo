@@ -284,3 +284,45 @@ display: none;}
 .carousel-item-service .carousel-caption{
   bottom: 2rem;
 }
+
+/*projets*/
+.nos-projets{
+  text-align: center;
+    font-size: 28px;
+    background-color: #4c4c4c;
+    height: 6rem;
+    position: relative;
+}
+.nos-projets h4{
+  margin: auto;
+    width: 211px;
+    background-color: #005aff;
+    font-size: 100%;
+    color: white;
+    bottom: 0;
+    padding-bottom: 9px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    clip-path: polygon(30px 0, calc(100% - 30px) 0, 100% 100%, 0 100%);
+}
+.projets-title{
+  text-align: center;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  margin: 6% 0 0;
+}
+.projets-title hr{
+  width: 10%;
+  opacity: 1;
+  color: #005aff;
+  margin: 25px auto;
+  height: 0.1rem
+}
+.projets-row{
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.projets-img{
+  margin: 20px auto;
+}
