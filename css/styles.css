@@ -55,6 +55,9 @@ width: 104px;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
 }
+@media (max-width:768px) {
+  .stats{
+  width:100%;}}
 .progress {
     display: flex;
     height: 0.78rem;
