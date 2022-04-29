@@ -52,8 +52,11 @@ width: 104px;
     height: 30rem;
   }
   .carousel-item > img {
-  min-width: 0%;width: 30em;
-height: 30em;;
+    min-width: 0%;
+    width: 46em;
+    height: 30em;
+    background-color: black;
+    left: -96px;
 }
 
 }
