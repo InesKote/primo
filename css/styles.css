@@ -131,6 +131,7 @@ padding: 0% 2% 7%;
   height: 37rem;
   background-size: cover;
     background-position-x: 16rem;
+  background-attachment: fixed;
 }
 }
 .exploit-desc{
