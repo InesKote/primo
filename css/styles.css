@@ -573,4 +573,22 @@ color: #fff;
         color: white;
         font-size: 1.3em;
         margin: 3% 15% 7%;
+  }  .col-lg-8 textarea{width: 84%}
+  @media (max-width:768px) {
+    .formulaire{
+
+        width: 100%;
+        background-color: transparent;
+        line-height: 2.5rem;
+        border: 1px solid #6a6767;
+        margin: 12px 0px;
+    }
+    .col-lg-8 textarea{width: 100%}
+    .col-lg-8 button{
+        background-color: #004edf;
+        border: 1px;
+        font-family: emoji;
+        color: white;
+        font-size: 1.3em;
+        margin: 3% 15% 7%;
   }
