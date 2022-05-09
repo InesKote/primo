@@ -1,0 +1,592 @@
+body{
+background-image: url('../mages/epic.png');
+  color: #black;
+  width: 100%;
+  height: 1200px;
+}
+.fixed-top {
+    position: relative;
+}
+.navbar{
+  height: 6rem;
+}
+.navbar>.container-fluid{
+  background-color: #212529;
+}
+.nav-link {
+    margin: auto 15px;
+    font-size: 17px;
+}
+
+  .container-fluid{
+  padding: 1% 10% 0% 4%;
+ -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+
+.ms-auto{
+  text-align: center;
+}
+.logo{
+  height: 60px;
+width: 104px;
+}
+
+/*Accueil*/
+
+.carousel-caption {
+  bottom: 3rem;
+    z-index: 10;
+    background-color: #000000a3;
+    right: 0;
+    left: 0;
+    padding: 2em 0.5em;
+}
+
+.carousel-item {
+  height: 35em;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 36em;
+}
+@media (max-width:768px) {
+  .carousel-item {
+    height: 35rem;
+  }
+  .carousel-item > img {
+    min-width: 0%;
+        width: 63em;
+        height: 35em;
+        margin-left: -28em;
+}
+
+}
+.sp{
+margin: 7% 0%;
+}
+.sp .col-lg-4{
+  padding: 20px;
+  text-align: center;
+  opacity:0;
+}
+.sp .col-lg-4 div{
+  box-shadow: 0 10px 25px rgb(73 80 87 / 20%);
+  height: 30rem;
+}
+.sp h4{
+  font-family: inherit;
+    font-weight: 700;
+    padding: 2% 0%;
+    font-size: 22px;
+}
+.sp p{
+color: #0000009e;
+padding: 0% 2% 7%;
+}
+.sp img{
+  width: 100%;
+    height: 254px;}
+.Competences{
+  padding: 2% 8%;
+    background-color: #ebebeb;
+    margin: 0%;
+}
+.hideme
+{
+    opacity:0;
+}
+
+
+
+.Competences h3 {
+  text-align: center;
+  padding: 3% 0% 1%;
+  font-family: 'Cantata One', serif;
+}
+.Competences hr{width: 7%;
+  background-color: #005aff;
+  height: 0.2rem;
+  margin: 20px auto 30px;
+  opacity: 1;
+}
+.Competences .col-lg-6 p{
+    line-height: 2.5rem;
+    text-align: right;
+    font-family: sans-serif;
+    padding: 5% 8%;
+}
+
+.stats{
+/*  padding: 0% 2%;
+  width:40%;*/
+}
+@media (max-width:768px) {
+  .stats{
+  width:100%;}}
+.stats h4{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+}
+.progress {
+    display: flex;
+    height: 0.78rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #d7d7d7;
+    border-radius: 0rem;
+    margin-bottom: 4%;}
+.exploit{
+  background-image: url('../images/AdobeStock_949.jpeg');
+  height: 37rem;
+  background-size: cover;
+    background-attachment:fixed;
+}
+}
+.exploit-desc{
+  text-align: justify;
+  padding: 0% 6%;
+  margin-bottom: 3rem;
+}
+.exploit-desc h1{
+  margin: 2% 5% 5%;
+  font-family: 'Cantata One', serif;
+}
+.exploit-desc p{
+  font-family: 'Tenor Sans', sans-serif;
+}
+    #counter {
+    background-color: #0040b58c;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+    }
+    #counter .count {
+    padding: 15px 45px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    height: 8rem;
+
+    }
+    .count h4 {
+        color: #fff;
+    	font-size: 16px;
+    	margin-top: 0;
+    }
+    #counter .count .fa {
+        font-size: 40px;
+        display: block;
+        color: #fff;
+    }
+    #counter .number {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+@media (max-width:768px) {
+#counter {
+  width: 100%;
+}
+.exploit{
+  height: 30rem;
+    background-position-x: center;
+}
+.exploit-desc{
+  display: none;
+}
+.Competences .col-lg-6 p {
+    text-align: right;
+    font-family: sans-serif;
+    padding: 5% 0%;}
+}
+.devis{
+  background-image: linear-gradient( #002c6cd9, #0554c92b ),url(../images/co.jpeg);
+    background-attachment: fixed;
+    height: 11rem;
+    background-position-x: -100px;
+}
+.devis{
+  color: #fff;
+  }
+  .devis .col-lg-12{
+    text-align: center;
+    padding: 3rem 0%;
+  }
+  .devis .col-lg-7{
+    text-align: center;
+    padding: 4% 0%;
+  }
+
+
+  .devis h1{
+    font-family: 'Roboto Slab', serif;
+  }
+  .devis h2{
+    background-color: #005de5;
+    width: 8em;
+    padding: 0px 1% 5px;
+    margin: 1rem auto;
+    border-radius: 6px;
+  box-shadow: 1px 2px 4px 0px;}
+  .devis span{
+    font-weight: bold;
+  }
+/*Accueil*/
+
+/*equipe*/
+
+.notre-equipe{
+  text-align: center;
+  margin: 47% auto 2%;
+}
+.notre-equipe hr{
+  width: 10%;
+margin: 22px auto;
+color: #005aff;
+opacity: 1;
+height: 0.2rem;
+}
+.team{
+  text-align: center;
+}
+.team-description{
+    text-align: left;
+    padding: 14px 22px 30px;
+    margin: auto;
+}
+.team-description span{
+    color:#000;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+.team-description p{
+  font-size: 1.4rem;
+    color: #000000e0;
+    margin: 8px 0px 5px;
+}
+.nom{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.team:hover{box-shadow: 0 0 7px 1px black;
+}
+.team-img img{
+  width: 90%;
+  }
+  .foot{max-width: 100%;
+    background-color: #f5f5f5;
+    max-width: 100%;
+      background-color: #f5f5f5;
+      height: 5rem;
+      padding:1rem 0px -1px 5px;}
+
+/*A Propos*/
+@media (min-width: 1024px) {
+
+
+.Propos-head img{
+  width: 100%;
+height: 40rem;
+}
+
+  .propos-images{
+    margin: -80px 0px 0px;
+  padding: 0px 120px;}
+  .propos-img{
+    width: 327px;
+    height: 243px;
+  }
+.propos-images hr {
+  margin: 1rem 0;
+color: #005aff;
+background-color: currentColor;
+border: 0;
+opacity: 1;
+width: 10%;
+height: 3px;
+  }
+.propos-images h2  {
+  font-size: 2rem;
+  font-family: 'Akshar', sans-serif;
+  padding: 1rem 0 0;
+  }
+#features{
+  margin-top: 75px;
+}
+#features video {
+  width:100%; position: absolute;
+      -webkit-filter: brightness(55%);
+}
+.icon{
+  color: #005aff;
+  padding-bottom: 40px;
+}
+#features .row{
+  padding: 0 9%;
+    margin: 120px 0px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+  .feature-box {
+    padding: 0 37px;
+  }
+}
+
+@media (max-width: 1005px)
+{
+  .Propos-head img{
+  width: 100%;
+height: 13rem;
+}
+
+  .propos-images{
+    margin: -75px 0px 0px;
+    text-align: center;}
+  .propos-img{
+    width: 86%;
+    /* height: 277px; */
+  }
+.propos-images hr {
+    margin: 1rem auto;
+    color: #005aff;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+    width: 10%;
+    height: 3px;
+  /* text-align: center; */}
+.propos-images h2  {
+  font-size: 1.7rem;
+  font-family: 'Akshar', sans-serif;
+  padding: 1rem 0 0;
+  text-align: center;}
+#features{
+  margin-top: 75px;
+}
+#features video {
+  width:100%; position: absolute;
+      -webkit-filter: brightness(55%);
+display: none;}
+.icon{
+  color: #0045c5;
+  padding-bottom: 20px;
+}
+#features .row{padding: 15px 9%;
+    margin: -53px 0px;
+    color: #FFF;
+    text-align: center;
+    background-image: url(../images/tur.PNG);
+    background-size: cover;
+}
+  .feature-box {
+    padding: 0 37px;
+  }
+}
+
+/*Service*/
+
+.nos-service{
+  text-align: center;
+    font-size: 28px;
+    background-color: #4c4c4c;
+    height: 6rem;
+    position: relative;
+}
+.nos-service h4{
+  margin: auto;
+    width: 211px;
+    background-color: #005aff;
+    font-size: 100%;
+    color: white;
+    bottom: 0;
+    padding-bottom: 9px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    clip-path: polygon(30px 0, calc(100% - 30px) 0, 100% 100%, 0 100%);
+}
+.nos-service-desc {
+    text-align: center;
+    margin: 77px auto 40px;
+    font-family: 'Merriweather', serif;
+    padding: 0 25%;
+}
+.nos-service-desc hr{
+  width: 15%;
+    background-color: #005aff;
+    height: 0.2rem;
+    margin: 20px auto 30px;
+    opacity: 1;
+}
+.services{
+  text-align: center;
+}
+.different-service{
+  padding: 20px;
+    margin: 19px 5px;
+    box-shadow: 0px 1px 12px 2px #e3e3e3;
+    height: 16rem;
+  }
+.different-service .icon{
+  padding: 20px 0 ;
+
+      }
+
+
+/*temoignage*/
+.temoignage{
+  background-color: #fff;
+}
+.temoignage-title{
+  text-align: center;
+  margin: 40px auto 20px;
+  font-family: 'Playfair Display', serif;
+}
+.temoignage-title hr{
+  width: 10%;
+  opacity: 1;
+  color: #005aff;
+  margin: 25px auto;
+  height: 0.1rem
+}
+.carousel-service{
+  width: 80%;
+  margin: auto ;
+}
+.carousel-item-service{
+  height: 20rem;
+}
+.carousel-caption h4{
+  margin: 0px auto 10px;
+  text-align: right;
+
+}
+.carousel-item-service .carousel-caption{
+  bottom: 2rem;
+}
+/*Service*/
+
+/*projets*/
+.nos-projets{
+  text-align: center;
+    font-size: 28px;
+    background-color: #4c4c4c;
+    height: 6rem;
+    position: relative;
+}
+.nos-projets h4{
+  margin: auto;
+    width: 211px;
+    background-color: #005aff;
+    font-size: 100%;
+    color: white;
+    bottom: 0;
+    padding-bottom: 9px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    clip-path: polygon(30px 0, calc(100% - 30px) 0, 100% 100%, 0 100%);
+}
+.projets-title{
+  text-align: center;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  margin: 6% 0 0;
+}
+.projets-title hr{
+  width: 10%;
+  opacity: 1;
+  color: #005aff;
+  margin: 25px auto;
+  height: 0.1rem
+}
+.projets-row{
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.projets-img{
+  margin: 20px auto;
+}
+
+.projets-img img{width:100%;}
+
+/*Contact*/
+.card{
+  text-align: center;
+  margin-bottom: 10%;
+  border-radius: 0;
+}
+.card-body{
+  padding-top: 0rem;
+}
+.card i{   color: #004edf;
+    padding-bottom: 20px;
+    border: 18px solid #363636;
+    padding: 12px;
+    border-top: 0;
+    background-color: #363636;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    margin-top: -2px;
+ }
+ .card-title{
+font-family: 'Roboto Slab', serif;
+padding: 15px 0 0px;
+ }
+ .Proposition{
+   text-align: center;
+   padding: 12%;
+ }
+ .Proposition h1{
+color: #fff;
+ }
+ .Proposition h4{
+
+    color: #004edf;
+    margin-bottom: 17px;
+ }
+.formulaire{
+
+    width: 40%;
+    background-color: transparent;
+    line-height: 2.5rem;
+    border: 1px solid #6a6767;
+    margin: 12px;
+}
+.col-lg-8 button{
+    background-color: #004edf;
+    border: 1px;
+    width: 13em;
+    font-family: emoji;
+    color: white;
+    margin: 2% 28%;
+    font-size: 1.3em;
+    text-align: revert;
+  }
+
+  .col-lg-8 textarea{width: 84%}
+  @media (max-width:768px) {
+    .formulaire{
+
+        width: 100%;
+        background-color: transparent;
+        line-height: 2.5rem;
+        border: 1px solid #6a6767;
+        margin: 12px 0px;
+    }
+    .col-lg-8 textarea{width: 100%}
+    .col-lg-8 button{
+        background-color: #004edf;
+        border: 1px;
+        font-family: emoji;
+        color: white;
+        font-size: 1.3em;
+        margin: 3% 15% 7%;
+  }
