@@ -73,14 +73,16 @@
 
         </div>
         <div class="col-lg-8">
-          <input type="text" class="formulaire" placeholder="Prenom*" required="">
-          <input type="text" class="formulaire" placeholder="Nom*" required="">
+          <form action="https://formsubmit.co/diattaraaly@gmail.com" method="POST">
+  <input type="text" class="formulaire" placeholder="Prenom*" name="Prenom">
+          <input type="text" class="formulaire" placeholder="Nom*" name="Nom">
           <br>
-          <input type="number" class="formulaire" placeholder="Numero*" required="">
-          <input type="email" class="formulaire" placeholder="Adresse Mail*" required="">
+          <input type="number" class="formulaire" placeholder="Numero*" name="Numero" >
+          <input type="email" id="email" class="formulaire" placeholder="Adresse Mail*" name="email" >
 
-          <textarea name="name" class="formulaire" placeholder="Message" rows="5" cols="100"></textarea>
-          <button type="submit" name="button" >Envoyer</button>
+          <textarea id="msg"name="msg" class="formulaire" placeholder="Message" rows="5" cols="100"></textarea>
+          <button type="submit" name="button" value="submit" >Envoyer</button>
+  </form>
 
         </div>
 
