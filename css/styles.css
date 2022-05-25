@@ -132,9 +132,9 @@ padding: 0% 2% 7%;
 }
 .progress {
     display: flex;
-    height: 0.78rem;
+    height: 1.5rem;
     overflow: hidden;
-    font-size: .75rem;
+    font-size: 1.5rem;
     background-color: #d7d7d7;
     border-radius: 0rem;
     margin-bottom: 4%;}
