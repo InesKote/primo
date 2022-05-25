@@ -142,12 +142,7 @@ padding: 0% 2% 7%;
     text-align: center;
 }
 }
-.exploit{
-  background-image: url('../images/AdobeStock_949.jpeg');
-  height: 37rem;
-  background-size: cover;
-    background-attachment:fixed;
-}
+
 }
 .exploit-desc{
   text-align: justify;
