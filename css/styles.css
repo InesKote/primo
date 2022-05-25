@@ -52,14 +52,14 @@ width: 104px;
   min-width: 100%;
   height: 36em;
 }
-@media (max-width:868px) {
+@media (max-width:968px) {
   .carousel-item {
-    height: 37rem;
+    height: 38rem;
   }
   .carousel-item > img {
     min-width: 0%;
-        width: 65em;
-        height: 37em;
+        width: 77em;
+        height: 38em;
         margin-left: -29em;
 }
 
