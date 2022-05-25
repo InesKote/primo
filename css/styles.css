@@ -597,7 +597,7 @@ color: #fff;
 }
 /*footer*/
   .footer {
-      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
+      background: linear-gradient(rgb(28 37 78 / 70%),rgb(0 0 0 / 92%));
       background-size: cover;
 
   }
