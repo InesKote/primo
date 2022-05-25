@@ -213,11 +213,9 @@ padding: 0% 2% 7%;
     background-attachment: fixed;
     height: 11rem;
     background-position-x: -100px;
+    color: #fff;
+  padding: 8% 0% 15%;
 }
-.devis{
-  color: #fff;
-  padding: 3rem 0 8rem;
-  }
   .devis .col-lg-12{
     text-align: center;
   }
