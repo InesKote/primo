@@ -143,8 +143,8 @@ padding: 0% 2% 7%;
 }
 }
 .exploit{
-  background-image: url('../images/AdobeStock_949.jpeg');
-  height: 34rem;
+  background-image: url('images/AdobeStock_949.jpeg');
+  height: 35rem;
   background-size: cover;
     background-attachment:fixed;
 }
