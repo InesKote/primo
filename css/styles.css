@@ -335,8 +335,7 @@ height: 3px;
 }
 #features .row{
   padding: 0 9%;
-    margin: 120px 0px;
-    position: absolute;
+    position: relative;
     color: white;
     text-align: center;
 }
