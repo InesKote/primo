@@ -621,6 +621,7 @@ color: #fff;
       font-family: 'Poppins', sans-serif;
       text-align: center;
   }
+
 .second ul {
 padding-left:0px;
 }
@@ -682,6 +683,8 @@ padding-left:0px;
       font-family: 'Poppins', sans-serif;
       text-align: right;
   }
+.third ul{
+  padding-left:0px;}
 
 
       .third h4 {
