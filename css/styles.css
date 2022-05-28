@@ -466,6 +466,7 @@ display: none;}
 .carousel-service{
   width: 80%;
   margin: auto ;
+  padding: 0rem 0px 2rem
 }
 .carousel-item-service{
   height: 20rem;
