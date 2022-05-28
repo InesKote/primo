@@ -323,9 +323,10 @@ height: 3px;
   }
 #features{
   margin-top: 75px;
+  position: relative;
 }
 #features video {
-  width:100%; position: absolute;
+  width:100%; 
       -webkit-filter: brightness(55%);
 }
 .icon{
@@ -334,7 +335,8 @@ height: 3px;
 }
 #features .row{
   padding: 13rem 9%;
-    position: relative;
+  top:0;
+    position: absolute;
     color: white;
     text-align: center;
 }
