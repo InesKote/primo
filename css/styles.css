@@ -282,8 +282,7 @@ height: 0.2rem;
 .team:hover{box-shadow: 0 0 7px 1px black;
 }
 .team-img img{
-  width: 80%;
-  border-radius:30%;
+  width: 15rem;
   }
   .foot{max-width: 100%;
     background-color: #f5f5f5;
