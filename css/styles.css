@@ -246,6 +246,7 @@ padding: 0% 2% 7%;
 
 .notre-equipe{
   text-align: center;
+  margin: 3rem auto;
 }
 .notre-equipe hr{
   width: 10%;
@@ -339,6 +340,7 @@ height: 3px;
     position: absolute;
     color: white;
     text-align: center;
+  margin:0;
 }
   .feature-box {
     padding: 0 37px;
